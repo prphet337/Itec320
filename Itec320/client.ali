@@ -1,0 +1,84 @@
+V "GNAT Lib v4.2"
+M P W=b
+P SS ZX
+R nnnnnnnvnnnnnnnnnnnnvvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U client%b		client.adb		58fcdd3e NE SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W wordpkg%s		wordpkg.adb		wordpkg.ali
+
+D ada.ads		20070706182613 9c7dd3ea
+D a-except.ads		20070706182613 d9ccb28d
+D a-finali.ads		20070706182615 2f48e141
+D a-filico.ads		20070706182616 9299732a
+D a-flteio.ads		20070706182613 3407344a
+D a-inteio.ads		20070706182616 03bc737c
+D a-ioexce.ads		20070706182617 be0900a0
+D a-stream.ads		20070706182613 74337d1b
+D a-tags.ads		20070706182615 81dd2f9c
+D a-tags.adb		20070706182615 9bcd7865
+D a-textio.ads		20070706182615 bc58c967
+D a-tiflio.ads		20070706182614 5d91823c
+D a-tiinio.ads		20070706182614 949a7272
+D client.adb		20130326225148 898c53c3
+D interfac.ads		20070706182614 a69cad5c
+D i-cstrea.ads		20070706182615 85085d90
+D system.ads		20081010175852 07429f6d
+D s-crtl.ads		20070706182614 d74e5b9d
+D s-exctab.ads		20070706182616 e14b1567
+D s-ficobl.ads		20070706182616 ed792749
+D s-finimp.ads		20070706182617 33c39bf7
+D s-finroo.ads		20070706182614 6f410d48
+D s-htable.ads		20070706182616 9598cfa4
+D s-parame.ads		20070706182614 6bd7b874
+D s-secsta.ads		20070706182613 db466d0c
+D s-soflin.ads		20070706182613 677820d8
+D s-stache.ads		20070706182615 07e06d0a
+D s-stalib.ads		20070706182616 99eda53f
+D s-stoele.ads		20070706182615 f7e9ab3e
+D s-stoele.adb		20070706182615 a397f9ca
+D s-stratt.ads		20070706182616 63715cfd
+D s-traent.ads		20070706182613 9950c76b
+D s-unstyp.ads		20070706182614 b399198a
+D s-wchcon.ads		20070706182614 1705b980
+D s-wchstw.ads		20070706182616 6b782940
+D unchconv.ads		20070706182616 34860a55
+D wordpkg.ads		20130326224725 5a9300ac
+X 1 ada.ads
+16K9*Ada 19e8 14|1r6 1r19 1r40 2r5 2r18 2r39
+X 5 a-flteio.ads
+20K13*Float_Text_IO[12|47] 14|1w44 2r43
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[13|47] 14|1w23 2r22
+X 11 a-textio.ads
+49K13*Text_IO 451e16 14|1w10 2r9
+167U14*New_Line 14|37r9 41r9 45r9
+185V13*End_Of_File{boolean} 14|18r19
+243U14*Put 14|35r9 39r9 43r9 47r9
+X 12 a-tiflio.ads
+69U14*Put 14|40r9[5|20]
+X 13 a-tiinio.ads
+67U14*Put 14|36r9[6|18] 44r9[6|18] 48r9[6|18]
+X 14 client.adb
+4U11*client 4b11 50l5 50t11
+6r9 Words{37|8R8} 19m21 21r30 21r61 22r32 26r27 26r55 30r55
+6r16 article1{37|8R8} 10m9 21r39
+6r26 article2{37|8R8} 11m9 21r70
+6r36 article3{37|8R8} 12m9 22r41
+7i9 num_Words{integer} 14m9 31m17 31r30 36r13 40r39
+7i20 length_Words{integer} 15m9 30m17 30r33 40r19
+7i34 count{integer} 16m9 27m25 27r34 44r13
+7i41 article_Counter{integer} 13m9 23m25 23r44 48r13
+X 37 wordpkg.ads
+6K10*WordPkg 14|1w59 2r58 37|55e15
+8R8*word 14|6r47 37|53e27
+13V13*New_Word{8R8} 14|10r21 11r21 12r21
+16V13*Length{natural} 14|30r48
+24V13*"="{boolean} 14|21r37 21r68 22r39
+29V13*charAt{character} 14|26r20 26r48
+30V13*lowerCase{8R8} 14|21r20 21r51 22r22
+40U15*Get 14|19r17
+

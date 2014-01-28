@@ -1,0 +1,40 @@
+V "GNAT Lib v4.2"
+P ZX
+R nnnvnnnnnnnnnnnnnvnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U queuepkg2%b		queuepkg2.adb		2823381c NE PK GE IL
+
+U queuepkg2%s		queuepkg2.ads		8f24b451 BN EE NE PK GE IL
+
+D queuepkg2.ads		20130414161407 8f24b451
+D queuepkg2.adb		20130414160629 a7078c4d
+D system.ads		20081010175852 07429f6d
+X 1 queuepkg2.ads
+4i9 Size{positive}
+9+14 ItemType 19r42 21r34 30r32 2|22r42 27r34
+11k9*QueuePkg2 4z9 9z14 39l5 39e14 2|9b14 60l5 60t14
+12R14*Queue 16r30 17r29 19r28 21r55 22r38 34c14 37e19 2|12r30 17r29 22r28
+. 27r55 40r38
+14X9*Queue_Empty 2|44r31
+14X22*Queue_Full
+16V18*isEmpty{boolean} 16>26 2|12b18 15l13 15t20 35r20 43r20
+16r26 Q{12R14} 2|12b26 14r24
+17V18*isFull{boolean} 17>25 2|17b18 20l13 20t19
+17r25 Q{12R14} 2|17b25
+19V18*front{9+14} 19>24 2|22b18 25l13 25t18
+19r24 Q{12R14} 2|22b24 24r24
+21U19*enqueue 21>27 21=44 2|27b19 38l13 38t20
+21*27 Item{9+14} 2|27b27 31r34
+21r44 Q{12R14} 2|27b44 32r30 33m17 35r28 36m25
+22U19*dequeue 22=27 2|40b19 58l13 58t20
+22r27 Q{12R14} 2|40b27 43r28 47r20 47r30 48m25 49m25 51r36 52r47 55m25
+25R14 QueueNode 27r41 29c14 32e19 2|30r29
+27P14 QueueNodePointer(25R14) 31r32 35r25 36r24 2|28r16 41r19
+30*25 Data{9+14} 2|24r32 31r26
+31p25 Next{27P14} 2|32r22 52r39 53r52 56r33
+35p17 Front{27P14} 2|14r27 24r25 24r26 36r27 47r22 48r27 52r49 55r27
+36p17 Back{27P14} 2|32r32 33r19 47r32 49r27 51r38
+X 2 queuepkg2.adb
+28p9 temp{1|27P14} 30m17 31r17 32m17 33r27 36r36
+41p9 current{1|27P14} 51m25 52r31 53m33 53r44 55r36 56m25
+

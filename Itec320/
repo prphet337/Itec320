@@ -1,0 +1,17 @@
+with ada.Text_IO, wordpkg;
+use ada.Text_IO, wordpkg;
+
+procedure client is
+	Words : Word;
+	count : array (Word) of Natural;
+begin
+	while not End_Of_File loop
+		Get(Words);
+		count(Words) := count(Words) + 1;
+	end loop;
+
+	for I in count'Range loop
+		put(count(I));
+	end loop;
+
+end client;

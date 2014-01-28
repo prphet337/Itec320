@@ -1,0 +1,130 @@
+V "GNAT Lib v4.2"
+P SS ZX
+R nnnnnnnvnnnnnnnnnvnnnvvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnvvnnnnnnnnnnnnnnn
+
+U wordpkg%b		wordpkg.adb		50e6b646 NE PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U wordpkg%s		wordpkg.ads		e6cbc9cb EE PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070706182613 9c7dd3ea
+D a-charac.ads		20070706182617 506ce725
+D a-chahan.ads		20070706182616 e1f8de82
+D a-except.ads		20070706182613 d9ccb28d
+D a-finali.ads		20070706182615 2f48e141
+D a-filico.ads		20070706182616 9299732a
+D a-ioexce.ads		20070706182617 be0900a0
+D a-stream.ads		20070706182613 74337d1b
+D a-tags.ads		20070706182615 81dd2f9c
+D a-tags.adb		20070706182615 9bcd7865
+D a-textio.ads		20070706182615 bc58c967
+D interfac.ads		20070706182614 a69cad5c
+D i-cstrea.ads		20070706182615 85085d90
+D system.ads		20081010175852 07429f6d
+D s-crtl.ads		20070706182614 d74e5b9d
+D s-exctab.ads		20070706182616 e14b1567
+D s-ficobl.ads		20070706182616 ed792749
+D s-finimp.ads		20070706182617 33c39bf7
+D s-finroo.ads		20070706182614 6f410d48
+D s-htable.ads		20070706182616 9598cfa4
+D s-parame.ads		20070706182614 6bd7b874
+D s-secsta.ads		20070706182613 db466d0c
+D s-soflin.ads		20070706182613 677820d8
+D s-stache.ads		20070706182615 07e06d0a
+D s-stalib.ads		20070706182616 99eda53f
+D s-stoele.ads		20070706182615 f7e9ab3e
+D s-stoele.adb		20070706182615 a397f9ca
+D s-stratt.ads		20070706182616 63715cfd
+D s-traent.ads		20070706182613 9950c76b
+D s-unstyp.ads		20070706182614 b399198a
+D s-wchcon.ads		20070706182614 1705b980
+D s-wchstw.ads		20070706182616 6b782940
+D unchconv.ads		20070706182616 34860a55
+D wordpkg.ads		20130326224725 5a9300ac
+D wordpkg.adb		20130326225246 57d5a10f
+X 1 ada.ads
+16K9*Ada 19e8 34|5r7 5r24 35|5r6 5r19 6r5 6r18
+X 2 a-charac.ads
+16K13*Characters 19e19 35|5r23 6r22
+X 3 a-chahan.ads
+38K24*Handling 157e28 35|5w34 6r33
+X 11 a-textio.ads
+49K13*Text_IO 451e16 34|5w11 5r28 35|5w10 6r9
+52P9*File_Type(339R9) 34|39r27 43r27 35|97r38 120r30 158r30
+118V13*Standard_Input{52P9} 35|154r21
+119V13*Standard_Output{52P9} 35|167r21
+169U14*Skip_Line 35|105r33
+184V13*End_Of_File{boolean} 35|102r35 128r43
+206U14*Get 35|110r33 134r33
+208U14*Put 35|161r25
+211U14*Look_Ahead 35|103r25 129r33
+X 34 wordpkg.ads
+6K10*WordPkg 55l8 55e15 35|7b14 170l5 170t12
+8R8*word 13r44 16r28 24r26 25r27 26r25 27r26 28r26 29r27 30r30 30r43 39r49
+. 40r31 43r45 44r27 50c22 53e27 35|10r49 11r26 19r32 32r29 38r30 50r30 55r31
+. 60r30 65r32 70r35 70r48 71r25 120r52 152r34 158r48 165r30
+9X4*WordTooLong 35|147r39
+10X4*BadWordIndex
+13V13*New_Word{8R8} 13>22 35|10b18 16l13 16t21
+13s22 Item{string} 35|10b27 13r35 13r51 14r34
+16V13*Length{natural} 16>21 35|19b18 22l13 22t19 160r29
+16r21 Item{8R8} 35|19b25 21r24
+19V13*Max_Word_Size{positive} 35|25b18 28l13 28t26
+24V13*"="{boolean} 24>19 24>22 35|32b18 36l13 36t16 52r42
+24r19 X{8R8} 35|32b22 34r24 35r33 35r46
+24r22 Y{8R8} 35|32b25 34r35 35r58 35r71
+25V13*"<="{boolean} 25>20 25>23 35|38b18 48l13 48t17 52r26 62r31
+25r20 X{8R8} 35|38b23 40r42 41r28 43r31 47r24
+25r23 Y{8R8} 35|38b26 40r52 41r43 43r46 47r36
+26V13*"<"{boolean} 26>18 26>21 35|50b18 53l13 53t16 57r31
+26r18 X{8R8} 35|50b23 52r24 52r40
+26r21 Y{8R8} 35|50b26 52r29 52r44
+27V13*">="{boolean} 27>19 27>22 35|55b18 58l13 58t17
+27r19 X{8R8} 35|55b24 57r29
+27r22 Y{8R8} 35|55b27 57r33
+28V13*">"{boolean} 28>19 28>22 35|60b18 63l13 63t16
+28r19 X{8R8} 35|60b23 62r29
+28r22 Y{8R8} 35|60b26 62r34
+29V13*charAt{character} 29>20 29>33 35|65b18 68l13 68t19
+29r20 Item{8R8} 35|65b25 67r24
+29i33 Index{positive} 35|65b38 67r37
+30V13*lowerCase{8R8} 30>23 35|70b18 83l13 83t22
+30r23 Item{8R8} 35|70b28 73r33 74r34
+39U15*Get 39>20 39<38 35|120b19 150l13 150t16 154r17
+39p20 File{11|52P9} 35|120b23 126r33 128r55 129r44 134r37
+39r38 Item{8R8} 35|120b41 125m17 137r36 142m41 142r56 143m41 143r54
+40U15*Get 40<20 35|152b19 155l13 155t16
+40r20 Item{8R8} 35|152b23 154m37
+43U15*Put 43>20 43>38 35|158b19 163l13 163t16 167r17
+43p20 File{11|52P9} 35|158b23 161r29
+43r38 Item{8R8} 35|158b41 160r36 161r34
+44U15*Put 44>20 35|165b19 168l13 168t16
+44r20 Item{8R8} 35|165b23 167r38
+49i17 MaxWordSize{natural} 51r44 35|27r24 137r50
+51a25*Letters{string} 35|13r24 35r35 35r60 41r30 41r45 43r33 43r48 67r29
+. 74r23 74r39 77r34 77r62 78r39 78r87 143r46 161r39
+52i25*Length{natural} 35|14r24 21r29 34r26 34r37 35r48 35r73 40r44 40r54
+. 47r26 47r38 73r23 73r38 76r35 125r22 137r41 142r46 142r61 143r59
+X 35 wordpkg.adb
+11r17 A_Word{34|8R8} 13m17 14m17 15r24
+40i21 I{integer} 41r38 41r53 43r41 43r56
+71r17 Words{34|8R8} 73m17 74m17 76r29 77r28 77r56 78m33 78r81 82r24
+76i21 I{integer} 77r42 77r70 78r47 78r95
+97V18 Another_Word{boolean} 97b18 97>31 114l13 114t25 126r20
+97p31 FIle{11|52P9} 102r47 103r36 105r43 110r37
+98e17 C{character} 103m42 107r36 107r49 110m43
+99b17 End_Line{boolean} 103m45 104r28
+121e17 C{character} 129m50 132r43 132r59 134m43 143r70
+122b17 End_Line{boolean} 129m53 131r43
+123b17 TooLong{boolean} 138m41 141r40 146r28
+160i21 I{integer} 161r47
+

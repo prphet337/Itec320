@@ -1,0 +1,116 @@
+V "GNAT Lib v4.2"
+M P W=b
+P SS ZX
+R nnnvnnnvnnnnnnnnnvnnnvvnnnnvnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U contest%b		contest.adb		3b88cccc NE SU IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W queuepkg2%s		queuepkg2.adb		queuepkg2.ali
+W stackpkg2%s		stackpkg2.adb		stackpkg2.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070706182613 9c7dd3ea
+D a-except.ads		20070706182613 d9ccb28d
+D a-finali.ads		20070706182615 2f48e141
+D a-filico.ads		20070706182616 9299732a
+D a-inteio.ads		20070706182616 03bc737c
+D a-ioexce.ads		20070706182617 be0900a0
+D a-stream.ads		20070706182613 74337d1b
+D a-tags.ads		20070706182615 81dd2f9c
+D a-tags.adb		20070706182615 9bcd7865
+D a-textio.ads		20070706182615 bc58c967
+D a-tiinio.ads		20070706182614 949a7272
+D contest.adb		20130414161209 f4b2dd11
+D interfac.ads		20070706182614 a69cad5c
+D i-cstrea.ads		20070706182615 85085d90
+D queuepkg2.ads		20130414161407 8f24b451
+D queuepkg2.adb		20130414160629 a7078c4d
+D stackpkg2.ads		20130408164210 fffa1f97
+D stackpkg2.adb		20130414161604 0ae9b3c6
+D system.ads		20081010175852 07429f6d
+D s-crtl.ads		20070706182614 d74e5b9d
+D s-exctab.ads		20070706182616 e14b1567
+D s-ficobl.ads		20070706182616 ed792749
+D s-finimp.ads		20070706182617 33c39bf7
+D s-finroo.ads		20070706182614 6f410d48
+D s-htable.ads		20070706182616 9598cfa4
+D s-parame.ads		20070706182614 6bd7b874
+D s-secsta.ads		20070706182613 db466d0c
+D s-soflin.ads		20070706182613 677820d8
+D s-stache.ads		20070706182615 07e06d0a
+D s-stalib.ads		20070706182616 99eda53f
+D s-stoele.ads		20070706182615 f7e9ab3e
+D s-stoele.adb		20070706182615 a397f9ca
+D s-stratt.ads		20070706182616 63715cfd
+D s-traent.ads		20070706182613 9950c76b
+D s-unstyp.ads		20070706182614 b399198a
+D s-wchcon.ads		20070706182614 1705b980
+D s-wchstw.ads		20070706182616 6b782940
+D unchconv.ads		20070706182616 34860a55
+X 1 ada.ads
+16K9*Ada 19e8 12|1r6 1r27 2r5 2r26
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[11|47] 12|1w10 2r9
+X 10 a-textio.ads
+49K13*Text_IO 451e16 12|1w31 2r30
+185V13*End_Of_File{boolean} 12|33r19
+241U14*Get 12|34r17
+243U14*Put 12|45r17 107r17
+250U14*Get_Line 12|36r17
+264U14*Put_Line 12|101r17 112r17
+X 11 a-tiinio.ads
+57U14*Get 12|35r17[5|18]
+67U14*Put 12|108r17[5|18] 109r17[5|18] 110r17[5|18] 111r17[5|18]
+X 12 contest.adb
+4U11*contest 4b11 115l5 115t12
+5R14 contestant 11e19 13r44 14r48 20r18 24r19 25r19
+6a17 Name{string} 34r28 107r29
+7i17 SKill{integer} 35r28 54r36 54r52 77r36 77r52 109r29
+8i17 Arrival{integer} 39r24 108r29
+9i17 Wins{integer} 37r24 55r41 55r57 61r41 61r57 78r41 78r57 83r41 83r57
+. 95r25 95r41 110r29
+10i17 Losses{integer} 38r24 56r41 56r59 62r41 62r59 79r41 79r59 84r41 84r59
+. 111r29
+13K17 Loss[15|11] 16r21 18r27 40r17 49r36 50r25 51r36 52r25 57r33 58r33 63r33
+. 64r33 72r36 73r25 74r36 75r25 80r33 85r33 91r28 92r17 93r28 94r17
+14K17 Standing[17|10] 17r25 81r33 86r33 96r17 97r17 100r12 104r15 105r28
+. 106r17
+16r9 LossQueue{15|12R14[13]} 40m38 49r47 50m38 51r47 52m38 57m55 63m55 91r39
+. 92m30
+17p9 StandingStack{17|12P9[14]} 81m56 86m56 96m40 97m40 100r29 104r32 105r41
+. 106m30
+18r9 SingleLossQueue{15|12R14[13]} 58m55 64m55 72r47 73m38 74r47 75m38 80m55
+. 85m55 93r39 94m30
+20r9 player{5R14} 34m21 35m21 37m17 38m17 39m17 40r30
+21a9 temp{string} 36m26
+22i9 tempMarker{integer} 36m32
+23i9 playerCount{integer} 31m9 39r35 41m17 41r32 44r12 44r31 48r23 67m25
+. 67r40
+24r9 player1{5R14} 49m25 54r28 55m33 55r49 57r46 62m33 62r51 64r46 72m25
+. 77r28 78m33 78r49 80r46 84m33 84r51 86r47 91m17 95m17 95r33 97r31 105m17
+. 107r21 108r21 109r21 110r21 111r21
+25r9 player2{5R14} 51m25 54r44 56m33 56r51 58r46 61m33 61r49 63r46 74m25
+. 77r44 79m33 79r51 81r47 83m33 83r49 85r46 93m17 96r31
+26i9 singleCount{integer} 30m9 68m25 68r40 71r23 88m25 88r40
+X 15 queuepkg2.ads
+11k9*QueuePkg2 12|1w40 13r29 15|39e14
+12R14 Queue 12|16r26[13] 18r32[13]
+19V18 front{12|5R14} 12|49r41[13] 51r41[13] 72r41[13] 74r41[13] 91r33[13]
+. 93r33[13]
+21U19 enqueue 12|40r22[13] 57r38[13] 58r38[13] 63r38[13] 64r38[13] 80r38[13]
+. 85r38[13]
+22U19 dequeue 12|50r30[13] 52r30[13] 73r30[13] 75r30[13] 92r22[13] 94r22[13]
+X 17 stackpkg2.ads
+10k9*StackPkg2 12|1w51 14r33 17|44e14
+12P9 Stack(34R9[12|14]) 12|17r34[14]
+16V13 IsEmpty{boolean} 12|100r21[14] 104r24[14]
+23U14 Push 12|81r42[14] 86r42[14] 96r26[14] 97r26[14]
+26U14 Pop 12|106r26[14]
+29V13 Top{12|5R14} 12|105r37[14]
+34R9 StackNode
+
